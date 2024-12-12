@@ -1,0 +1,134 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 10px;
+  }
+
+  form {
+    margin: 10px;
+  }
+
+  input[type=text], input[type=number] {
+    width: 200px;
+  }
+  .grid{
+    background-color: #eee;
+  }
+
+  input[type=submit] {
+    width: 100px;
+  }
+
+/* Use a custom font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Set the font family and color for the whole body */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background: url("/bgg.jpg");
+}
+
+/* Center the title and make it bigger */
+h1 {
+  color: beige;
+  text-align: center;
+  font-size: 3em;
+}
+
+/* Add some margin and padding to the table */
+table {
+  margin: 20px auto;
+  padding: 10px;
+}
+
+/* Add some border radius and box shadow to the table */
+table, th, td {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Add some background color and text alignment to the table header */
+th {
+  background-color: #eee;
+  text-align: left;
+}
+
+/* Add some hover effect to the table rows */
+tr:hover {
+  background-color: #f0f0f0;
+}
+
+/* Add some spacing and alignment to the forms */
+form {
+  color: tan;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: top;
+  
+}
+.aaa{
+  justify-self: center;
+}
+
+/* Add some border radius and box shadow to the inputs */
+input[type=text], input[type=number] {
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Add some background color and cursor to the buttons */
+input[type=submit] {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Center the title and make it bigger */
+h1 {
+  text-align: center;
+  font-size: 3em;
+  /* Add a bounce animation to the title */
+  animation: bounce 1s infinite;
+}
+
+/* Define the bounce animation */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Add some margin and padding to the table */
+table {
+  margin: 20px auto;
+  padding: 10px;
+  /* Add a fade in animation to the table */
+  animation: fade-in 1s;
+}
+
+/* Define the fade in animation */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Add some border radius and box shadow to the table */
+table, th, td {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
